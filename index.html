@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>javascript</title>
+            <style>
+
+            </style>
+            <script>
+
+            </script>
+        </head>
+        <body>
+            <script>
+                function myFunctionA(name){ //function define
+                    //function body
+                    console.log('my name is :-',name);
+                }
+                myFunctionA('sakshi');//function calling
+                var x=20;
+                var y=30;
+                console.log(x+y);
+                var a='lion ';
+                var b='tiger';
+                console.log(a+b);
+                var a1="20";
+                var a2="40";
+                console.log(a2-a1);
+
+                function   myFunctionC(x,y){//function defination
+                    return x+y;             //x and y are formal arguments
+               }
+                var result = myFunctionC(10,30);//function calling 10,30 are actual argument
+                console.log(result);
+
+                function myFunctionD(b1,b2){
+                    console.log(b1+b2);
+                }
+                myFunctionD(10,80);
+
+                function myFunctionE(b3,b4){
+                    console.log(b3-b4);
+                }
+                myFunctionE(90,80);
+
+                function myFunctionF(b5,b6){
+                    console.log(b5*b6);
+                }
+                myFunctionF(2,5);
+
+                function myFunctionG(b7,b8){
+                    console.log(b7/b8);
+                }
+                myFunctionG(20,5);
+
+                function myFunctionH(name){
+                    console.log("what is your name ? "+ name);
+                }
+                myFunctionH("sakshi");
+
+                function myFunctionI(a3,a4){
+                    console.log(a3+a4);
+                }
+                myFunctionI("sakshi ","sisodiya");
+
+                function myFunctionJ(text){
+                    console.log("how are you sakshi? "+text);
+                }
+                myFunctionJ("i am fine thank you");
+
+                function myFunctionK(a,b,c,d){
+                    console.log(a+b-c+d);
+                }
+                myFunctionK(100,200,100,200);
+
+                function myFunctionL(u,v){
+                    console.log(u+v);
+                }
+                myFunctionL("Harshad"," sakshi");
+
+                function myFunctionO(M,N){
+                    return M+N;
+                }
+                let answer=myFunctionO(10,90);
+                console.log(answer);
+
+                function myFunctionP(aa1,aa2){
+                    return aa1-aa2;
+                }
+                let ans= myFunctionP(100,80);
+                console.log(ans);
+
+                let ans2 =myFunctionO(10,myFunctionP(100,80));
+                console.log(ans2);
+
+                let ans3 = myFunctionP(myFunctionO(10,90), 90);
+                console.log(ans3);
+            </script>
+        </body>
+</html>
